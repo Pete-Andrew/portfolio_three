@@ -35,8 +35,10 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-How to:
+To enable run dev, first you need to 'cd portfolio_three'
+
+How to make this tutorial:
 https://www.youtube.com/watch?v=Y2kGqbzvAn4&ab_channel=GreatStack
 
 Where am I in the tutorial
-12:50
+19:07
