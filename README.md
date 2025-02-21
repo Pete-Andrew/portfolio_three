@@ -40,8 +40,10 @@ To enable run dev, first you need to 'cd portfolio_three'
 ## Notes
 
 For some reason this project opens in the wrong folder, run 'cd portfolio_three' to enter correct folder
+Then 'npm run dev'
+
 How to make this tutorial:
 https://www.youtube.com/watch?v=Y2kGqbzvAn4&ab_channel=GreatStack
 
 Where am I in the tutorial
-38:26
+51:47
