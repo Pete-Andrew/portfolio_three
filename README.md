@@ -46,4 +46,4 @@ How to make this tutorial:
 https://www.youtube.com/watch?v=Y2kGqbzvAn4&ab_channel=GreatStack
 
 Where am I in the tutorial
-51:47
+1:02:49
