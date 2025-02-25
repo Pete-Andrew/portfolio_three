@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Services from  "./components/Services"
 import Work from "./components/Work";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 //holds the main bulk of the webpage
 //Mounts all the pages
@@ -18,6 +19,7 @@ export default function Home() {
     <Services/>
     <Work/>
     <Contact/>
+    <Footer/>
     
 
     </>
