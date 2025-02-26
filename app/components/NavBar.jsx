@@ -5,7 +5,7 @@ import { assets } from '@/assets/assets'
 import Image from 'next/image' 
 import React, {useEffect, useRef, useState} from 'react'
 
-const NavBar = () => {
+const NavBar = ({isDarkMode, setIsDarkMode}) => {
 
     const [isScroll, setIsScroll] = useState(false)
 
@@ -40,7 +40,7 @@ const NavBar = () => {
                 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm" : "" }`}>
 
                 <a href="#top">
-                    <Image src={assets.logo} className='w-28 
+                    <Image src={assets.logo} alt='' className='w-28 
                     cursor-pointer mr-14'/>
                 </a>
                 {/* classname made into a template literal, listens for isScroll if page is moving */}
@@ -54,8 +54,9 @@ const NavBar = () => {
                 </ul>
 
                 <div className='flex item-center gap-4'>
-
-                    <button>
+                    
+                    {/* onClick func switches between previous values for dark mode */}
+                    <button onClick={()=> setIsDarkMode(prev => !prev)}>
                         <Image src={assets.moon_icon} alt="" className='w-6'/>
                     </button>
 

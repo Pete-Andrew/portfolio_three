@@ -15,15 +15,14 @@ const Footer = () => {
         </div>
 
         <div className='text-center sm:flex items-center justify-between border-t
-         border-gray-400 mx-[10%] mt-12 py-6' >
-            <p> © Pete Andrew 2025. All rights reserved
-                <ul className='flex items-center gap-10 justify-center mt-4 sm:'>
+         border-gray-400 mx-[10%] mt-12 py-6'>
+            <p> © Pete Andrew 2025. All rights reserved </p>
+                <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
                     {/* _blank opens target window in new tab */}
                     <li><a target="_blank" href="https://github.com/Pete-Andrew">GitHub</a></li>
                     <li><a target="_blank" href="https://github.com/Pete-Andrew">LinkedIn</a></li>
                     <li><a target="_blank" href="https://github.com/Pete-Andrew">Other</a></li>
                 </ul>
-            </p>
         </div>
     </div>
   )

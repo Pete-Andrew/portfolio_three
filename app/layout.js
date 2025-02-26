@@ -19,10 +19,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     // scroll smooth makes the page smooth scroll to targets 
+    // html tag can be used to set light/dark mode, the code for this is set up in the page.js file
     <html lang="en" className="scroll-smooth">
       <body
       // leading 8 increases line height
-        className={`${outfit.variable} ${ovo.variable} antialiased leading-8 overflow-x-hidden`}
+        className={`${outfit.variable} ${ovo.variable} antialiased leading-8 overflow-x-hidden 
+        dark:bg-darkTheme dark:text-white`}
       >
         {children}
       </body>
