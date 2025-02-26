@@ -26,9 +26,8 @@ export default function Home() {
     }
   },[])
 
-
+  // if darkMode is true/false classList of 'dark' is added or removed. 
   useEffect(()=>{
-    // if darkMode is true/false classList of 'dark' is added or removed. 
     if(isDarkMode) {
       document.documentElement.classList.add('dark');
       localStorage.theme = 'dark';
@@ -48,7 +47,6 @@ export default function Home() {
     <Work isDarkMode={isDarkMode}/>
     <Contact isDarkMode={isDarkMode}/>
     <Footer isDarkMode={isDarkMode}/>
-    
 
     </>
   );

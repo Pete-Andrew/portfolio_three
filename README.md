@@ -46,6 +46,6 @@ How to make this tutorial:
 https://www.youtube.com/watch?v=Y2kGqbzvAn4&ab_channel=GreatStack
 
 Where am I in the tutorial
-2:34:19
+2:49:19
 
 ctrl+c ends job in terminal
