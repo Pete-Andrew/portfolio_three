@@ -45,7 +45,10 @@ Then 'npm run dev'
 How to make this tutorial:
 https://www.youtube.com/watch?v=Y2kGqbzvAn4&ab_channel=GreatStack
 
+npm install motion 
+from: https://motion.dev/docs
+
 Where am I in the tutorial
-2:49:19
+3:05:09
 
 ctrl+c ends job in terminal

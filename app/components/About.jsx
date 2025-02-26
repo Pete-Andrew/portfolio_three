@@ -1,17 +1,39 @@
 import { assets, infoList, toolsData } from '@/assets/assets'
 import React from 'react'
 import Image from 'next/image'
+import { motion } from "motion/react"
 
 const About = ({isDarkMode}) => {
   return (
-    <div id='about' className='w-full px-[12%] py-10 scroll-mt-20'>
-        <h4 className='text-center mb-2 text-lg font-Ovo'>Intro</h4>
-        <h2 className='text-center text-5xl font-Ovo'>About Me</h2>
+    <motion.div 
+        initial={{opacity:0}}
+        whileInView={{opacity:1}}
+        transition={{duration: 1}} 
+    id='about' className='w-full px-[12%] py-10 scroll-mt-20'>
+        <motion.h4 
+            initial={{opacity:0, y: -20}}
+            whileInView={{opacity:1, y:0}}
+            transition={{duration: 0.5, delay: 0.3}} 
+        className='text-center mb-2 text-lg font-Ovo'>Intro</motion.h4>
+        <motion.h2 
+            initial={{opacity:0, y: -20}}
+            whileInView={{opacity:1, y:0}}
+            transition={{duration: 0.5, delay: 0.5}} 
+        className='text-center text-5xl font-Ovo'>About Me</motion.h2>
 
-        <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
-            <div className='w-64 sm:w-80 rounded-3xl max-w-none'>
+        <motion.div 
+            initial={{opacity:0}}
+            whileInView={{opacity:1}}
+            transition={{duration: 0.8}} 
+        className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
+            
+            <motion.div 
+                initial={{opacity:0, scale: 0.9}}
+                whileInView={{opacity:1, scale: 1}}
+                transition={{duration: 0.6, delay: 0.3}} 
+                className='w-64 sm:w-80 rounded-3xl max-w-none'>
                 <Image src={assets.user_image} alt='user' className ='w-full rounded-3xl' />
-            </div>
+            </motion.div>
             <div className='flex-1'>
                 <p className='mb-10 max-w-2xl font-Ovo'>Some words to make me look like the big daddy of programming</p>
 
@@ -42,9 +64,9 @@ const About = ({isDarkMode}) => {
                     </ul>
 
             </div>
-        </div>
+        </motion.div>
 
-    </div>
+    </motion.div>
   )
 }
 
