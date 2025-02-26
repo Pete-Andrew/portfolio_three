@@ -49,6 +49,6 @@ npm install motion
 from: https://motion.dev/docs
 
 Where am I in the tutorial
-3:05:09
+3:16:09
 
 ctrl+c ends job in terminal
