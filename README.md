@@ -39,7 +39,7 @@ To enable run dev, first you need to 'cd portfolio_three'
 
 ## Notes
 
-For some reason this project opens in the wrong folder, run 'cd portfolio_three' to enter correct folder
+For some reason this project opens in the wrong folder, run 'cd portfolio_three' in the terminal to enter correct folder
 Then 'npm run dev'
 
 How to make this tutorial:
@@ -47,8 +47,5 @@ https://www.youtube.com/watch?v=Y2kGqbzvAn4&ab_channel=GreatStack
 
 npm install motion 
 from: https://motion.dev/docs
-
-Where am I in the tutorial
-3:16:09
 
 ctrl+c ends job in terminal
