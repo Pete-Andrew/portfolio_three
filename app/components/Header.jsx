@@ -13,7 +13,7 @@ const Header = () => {
             initial={{scale:0}}
             whileInView={{scale: 1}}
             transition={{duration: 0.8, type: 'spring', stiffness: 100}} >
-                <Image src={assets.profile_img} alt='' className='rounded-full w-32' />
+                <Image src={assets.pete_round} alt='' className='rounded-full w-32' />
             </motion.div>
 
             <motion.h3 
@@ -28,15 +28,14 @@ const Header = () => {
             whileInView={{y: 0, opacity:1}}
             transition={{duration: 0.8, delay: 0.5}}  
             className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo' >
-                Fullstack Developer based in London. Or at least that is what I tell people, it's a lie but I like it </motion.h1>
+                I am a Fullstack Developer from the UK. Interested in machine learning, game design and web development </motion.h1>
 
             <motion.p 
             initial={{opacity:0}}
             whileInView={{opacity:1}}
             transition={{duration: 0.6, delay: 0.7}} 
             className='max-w-2xl mx-auto font-Ovo'>
-                Front end web developer, all round legend. Some other words here to fill in the gaps and make it seem
-                like I am more important then I am.
+                Experienced front end web developer, currently working on front end and full stack projects.
             </motion.p>
 
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>

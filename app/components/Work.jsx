@@ -16,7 +16,8 @@ const Work = ({isDarkMode}) => {
             initial={{opacity:0, y: -20}}
             whileInView={{opacity:1, y:0}}
             transition={{duration: 0.5, delay: 0.3}} 
-            className='text-center mb-2 "text-1g font-Ovo'>
+            
+            className='text-center text-5xl font-Ovo'>
                 My Portfolio</motion.h4>
 
             <motion.h2 
@@ -43,6 +44,7 @@ const Work = ({isDarkMode}) => {
                     whileHover={{scale: 1.05}}
                     transition={{duration: 0.3}}
                     key={index}
+                        // in order to change the bgImage you need to change the target img in the assets.js file
                         className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group'
                         style={{ backgroundImage: `url(${project.bgImage})` }}>
 

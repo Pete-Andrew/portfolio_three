@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 import { useEffect } from "react";
 import { useState } from "react";
 
-//holds the main bulk of the webpage
+//Holds the main bulk of the webpage
 //Mounts all the pages
 export default function Home() {
 
@@ -42,9 +42,9 @@ export default function Home() {
     {/* can access setIsDarkMode in nav bar */}
     <NavBar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/> 
     <Header isDarkMode={isDarkMode}/>
+    <Work isDarkMode={isDarkMode}/>
     <About isDarkMode={isDarkMode}/>
     <Services isDarkMode={isDarkMode}/>
-    <Work isDarkMode={isDarkMode}/>
     <Contact isDarkMode={isDarkMode}/>
     <Footer isDarkMode={isDarkMode}/>
 
