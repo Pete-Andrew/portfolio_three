@@ -13,8 +13,10 @@ import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
-import logo from './logo.png';
-import logo_dark from './logo_dark.png';
+//import logo from './logo.png';
+//import logo_dark from './logo_dark.png';
+import darwin_flower_png_light from './darwin_flower_png_light.png';
+import darwin_flower_png_dark from './darwin_flower_png_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
 // import profile_img from './profile-img.png';
@@ -38,6 +40,7 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import pete_round from './pete_round.png';
+import celtic_header from './Celtic_header.jpg';
 
 //exports the images so they can be easily used in web page
 export const assets = {
@@ -54,8 +57,10 @@ export const assets = {
     git,
     mongodb,
     right_arrow_white,
-    logo,
-    logo_dark,
+    //logo,
+    //logo_dark,
+    darwin_flower_png_dark,
+    darwin_flower_png_light,
     mail_icon,
     mail_icon_dark,
     // profile_img,
@@ -78,7 +83,8 @@ export const assets = {
     send_icon,
     right_arrow_bold,
     right_arrow_bold_dark,
-    pete_round
+    pete_round,
+    celtic_header
 };
 
 // holds the images for the 'My Portfolio' section.
@@ -106,6 +112,7 @@ export const workData = [
     },
 ]
 
+// exports for the what I offer section
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
     { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },

@@ -10,14 +10,14 @@ const Work = ({isDarkMode}) => {
         initial={{opacity:0}}
         whileInView={{opacity:1}}
         transition={{duration: 1}} 
-        
-        id="work" className='w-full px-[12%] py-10 scroll-mt-20' >
+        // added mt-40 to compensate for celtic dragons header image
+        id="work" className='w-full px-[12%] py-10 scroll-mt-20 lg:mt-20 md:mt-4 sm:mt-4' >
             <motion.h4 
             initial={{opacity:0, y: -20}}
             whileInView={{opacity:1, y:0}}
             transition={{duration: 0.5, delay: 0.3}} 
             
-            className='text-center text-5xl font-Ovo'>
+            className='text-center text-5xl font-Ovo '>
                 My Portfolio</motion.h4>
 
             <motion.h2 
@@ -47,9 +47,11 @@ const Work = ({isDarkMode}) => {
                         // in order to change the bgImage you need to change the target img in the assets.js file
                         className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group'
                         style={{ backgroundImage: `url(${project.bgImage})` }}>
+                        
 
                         <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2
-                        py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7'>
+                        py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7 border-2 border-slate-800'>
+                            {/* text for the portfolio thumbnails, text can be changed in the assets.js file */}
                             <div>
                                 <h2 className='font-semibold'>{project.title}</h2>
                                 <p className='text-sm text-gray-700'>{project.description}</p>

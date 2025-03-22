@@ -43,7 +43,7 @@ const NavBar = ({isDarkMode, setIsDarkMode}) => {
 
                 {/* top left logo */}
                 <a href="#top">
-                    <Image src={isDarkMode ? assets.logo_dark: assets.logo} alt='' className='w-28 
+                    <Image src={isDarkMode ? assets.darwin_flower_png_dark: assets.darwin_flower_png_light} alt='' className='w-14 
                     cursor-pointer mr-14'/>
                 </a>
                 {/* classname made into a template literal, listens for isScroll if page is moving */}
