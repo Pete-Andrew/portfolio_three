@@ -10,11 +10,12 @@ const About = ({isDarkMode}) => {
         whileInView={{opacity:1}}
         transition={{duration: 1}} 
     id='about' className='w-full px-[12%] py-10 scroll-mt-20'>
-        <motion.h4 
+        {/* <motion.h4 
             initial={{opacity:0, y: -20}}
             whileInView={{opacity:1, y:0}}
             transition={{duration: 0.5, delay: 0.3}} 
-        className='text-center mb-2 text-lg font-Ovo'>Intro</motion.h4>
+        className='text-center mb-2 text-lg font-Ovo'>Intro</motion.h4> */}
+        
         <motion.h2 
             initial={{opacity:0, y: -20}}
             whileInView={{opacity:1, y:0}}
@@ -40,16 +41,16 @@ const About = ({isDarkMode}) => {
                         whileInView={{opacity:1}}
                         transition={{duration: 0.8, delay: 0.6}} 
             className='flex-1'>
-                <p className='mb-10 max-w-2xl font-Ovo'>
-                    Some words to make me look like the big daddy of programming
-                    Some words to make me look like the big daddy of programming
-                    Some words to make me look like the big daddy of programming</p>
+                <p className='mb-10 max-w-3xl font-Ovo'>
+                    I want to build interesting things with interesting people. I am fascinated by biology (I have an MSc in Biodiversity)
+                    </p>
 
+                
                 <motion.ul 
                             initial={{opacity:0}}
                             whileInView={{opacity:1}}
                             transition={{duration: 0.8, delay: 0.1}} 
-                className='grid grid-col-1 sm:grid-cols-3 gap-6 max-w-2xl'>
+                className='grid grid-col-1 sm:grid-cols-3 gap-6 max-w-3xl'>
                     {/* map de-structures the data from infoList */}
                     {/* the infoList is in the assets.js page in the assets folder */}
                     {infoList.map(({icon, iconDark, title, description}, index)=>(
@@ -60,7 +61,10 @@ const About = ({isDarkMode}) => {
                          hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50'>
                             <Image src={isDarkMode ? iconDark : icon} alt={title} className='w-7 mt-3' />
                             <h3 className='my-4 font-semibold text-gray-600 text-sm dark:text-white'>{title}</h3>
-                            <p className='text-gray-600 text-sm dark:text-white/80'>{description}</p>
+                            {/* using a dangerously set p tag as this tells React to render the description field as HTML code, rather than as a plain string. <br> tag inserted into the text.  */}
+                            <p dangerouslySetInnerHTML={{ __html: description }} className='text-gray-600 text-sm dark:text-white/80' />
+                            {/* commented out react p tag (that won't allow line breaks) */}
+                            {/* <p className='text-gray-600 text-sm dark:text-white/80'>{description}</p> */}
                         </motion.li>
                     ))}
                 </motion.ul>

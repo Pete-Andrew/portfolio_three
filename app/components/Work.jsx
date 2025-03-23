@@ -25,14 +25,14 @@ const Work = ({isDarkMode}) => {
             whileInView={{opacity:1, y:0}}
             transition={{duration: 0.5, delay: 0.5}} 
             className='text-center text-5x1 font-Ovo' >
-                My Latest Work</motion.h2>
+                A snapshot of my favourite Work</motion.h2>
 
             <motion.p 
               initial={{opacity:0}}
               whileInView={{opacity:1}}
               transition={{duration: 0.5, delay: 0.7}} 
             className='text-center max-w-2x1 mx-auto mt-5 mb-12 font-Ovo'>
-                Welcome to my portfolio! Have a look at some of the stuff I have churned out over the years, marvel at its brilliance!</motion.p>
+                Below is a selection of my work both for clients and personal projects</motion.p>
 
             <motion.div 
             initial={{opacity:0}}
