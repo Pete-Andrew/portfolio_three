@@ -1,6 +1,7 @@
 // Use this file to easily display content on the web page
 // Images have to be imported from the folder and exported in the function below to be rendered
 import user_image from './user-image.png';
+import bluebell_wood from './bluebell_wood.jpg';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -45,6 +46,7 @@ import celtic_header from './Celtic_header.jpg';
 //exports the images so they can be easily used in web page
 export const assets = {
     user_image,
+    bluebell_wood,
     code_icon,
     code_icon_dark,
     edu_icon,
@@ -125,7 +127,7 @@ export const serviceData = [
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js, learning Python' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'MSc Biodiversity <br> BSc Biological Sciences <br> EdX Front-end Bootcamp' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: '<a href="https://github.com/Pete-Andrew" target="_blank"><b>Click here for my GitHub Projects<b></a>' }
 ];
 
 export const toolsData = [

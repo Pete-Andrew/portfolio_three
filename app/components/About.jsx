@@ -33,7 +33,7 @@ const About = ({isDarkMode}) => {
                 whileInView={{opacity:1, scale: 1}}
                 transition={{duration: 0.6, delay: 0.3}} 
                 className='w-64 sm:w-80 rounded-3xl max-w-none'>
-                <Image src={assets.user_image} alt='user' className ='w-full rounded-3xl' />
+                <Image src={assets.bluebell_wood} alt='user' className ='w-full rounded-3xl' />
             </motion.div>
 
             <motion.div 
@@ -43,6 +43,7 @@ const About = ({isDarkMode}) => {
             className='flex-1'>
                 <p className='mb-10 max-w-3xl font-Ovo'>
                     I want to build interesting things with interesting people. I am fascinated by biology (I have an MSc in Biodiversity)
+                    Always looking to refine and build on my skill set. 
                     </p>
 
                 
