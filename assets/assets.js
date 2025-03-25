@@ -42,6 +42,14 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import pete_round from './pete_round.png';
 import celtic_header from './Celtic_header.jpg';
+import PS_logo from './PS_logo.svg';
+import blender_logo from './blender_logo.svg';
+import illustrator_logo from './Illustrator_logo.svg';
+import javascript_logo from './javascript_logo.svg';
+import react_logo from './react_logo.svg';
+import substancePainter_logo from './substancePainter_logo.svg';
+import zbrush_logo from './zbrush_logo.svg';
+import visual_studio from './Visual_Studio_logo.svg';
 
 //exports the images so they can be easily used in web page
 export const assets = {
@@ -59,6 +67,14 @@ export const assets = {
     git,
     mongodb,
     right_arrow_white,
+    PS_logo,
+    blender_logo,
+    illustrator_logo,
+    javascript_logo,
+    react_logo,
+    substancePainter_logo,
+    zbrush_logo,
+    visual_studio,
     //logo,
     //logo_dark,
     darwin_flower_png_dark,
@@ -131,5 +147,6 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.git, assets.PS_logo, assets.blender_logo, assets.illustrator_logo, assets.javascript_logo, 
+    assets.PS_logo, assets.react_logo, assets.substancePainter_logo, assets.visual_studio, assets.zbrush_logo
 ];
