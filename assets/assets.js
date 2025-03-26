@@ -109,32 +109,40 @@ export const assets = {
 //these images are stored in the public directory in the folder tree
 export const workData = [
     {
-        title: 'Voodoo Greenhouse',
-        description: 'Website personal project',
-        bgImage: '/voodoo_greenhouse_square.jpg',
+      title: 'Voodoo Greenhouse',
+      description: 'Website personal project',
+      bgImage: '/voodoo_greenhouse_square.jpg',
+      icon: assets.send_icon,
+      link: 'https://pete-andrew.github.io/animated_template_Voodoo_Greenhouse/',
     },
     {
-        title: 'Ebb & Flow Psychology',
-        description: 'Client Website',
-        bgImage: '/ebb_and_flow_square.jpg',
+      title: 'Ebb & Flow Psychology',
+      description: 'Client Website',
+      bgImage: '/ebb_and_flow_square.jpg',
+      icon: assets.send_icon,
+      link: 'https://www.ebbandflowpsychology.co.uk/index.html',
     },
     {
-        title: 'Ilex Eco Art',
-        description: 'Web Design Project',
-        bgImage: '/Ilex_eco_art_square.jpg',
+      title: 'Ilex Eco Art',
+      description: 'Web Design Project',
+      bgImage: '/Ilex_eco_art_square.jpg',
+      icon: assets.send_icon,
+      link: 'https://arnamanatomy.wixsite.com/ilexecoart',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+      title: 'UI/UX designing',
+      description: 'UI/UX Design',
+      bgImage: '/work-4.png',
+      icon: assets.send_icon,
+      link: 'https://example.com',
     },
-]
+  ]
 
 // exports for the what I offer section
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
     { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
+    // { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
     { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
 ]
 
@@ -146,7 +154,17 @@ export const infoList = [
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: '<a href="https://github.com/Pete-Andrew" target="_blank"><b>Click here for my GitHub Projects<b></a>' }
 ];
 
+// list of icons for beneath 
 export const toolsData = [
-    assets.vscode, assets.git, assets.PS_logo, assets.blender_logo, assets.illustrator_logo, assets.javascript_logo, 
-    assets.PS_logo, assets.react_logo, assets.substancePainter_logo, assets.visual_studio, assets.zbrush_logo
-];
+    { icon: assets.vscode, title: 'Visual Studio Code' },
+    { icon: assets.git, title: 'Git' },
+    { icon: assets.PS_logo, title: 'Adobe Photoshop' },
+    { icon: assets.blender_logo, title: 'Blender' },
+    { icon: assets.illustrator_logo, title: 'Adobe Illustrator' },
+    { icon: assets.javascript_logo, title: 'JavaScript' },
+    { icon: assets.PS_logo, title: 'Adobe Photoshop' },
+    { icon: assets.react_logo, title: 'React' },
+    { icon: assets.substancePainter_logo, title: 'Substance Painter' },
+    { icon: assets.visual_studio, title: 'Visual Studio' },
+    { icon: assets.zbrush_logo, title: 'ZBrush' }
+  ];

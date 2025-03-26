@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { assets, workData } from '@/assets/assets'
 import { motion } from "motion/react"
 
+
 const Work = ({isDarkMode}) => {
     return (
         <motion.div
@@ -59,9 +60,11 @@ const Work = ({isDarkMode}) => {
                             <div className='border rounded-full border-black w-9
                             aspect-square flex items-center justify-center shadow-
                             [2px_2px_0_#000] group-hover:bg-lime-300 transition'>
-                                <Image src={assets.send_icon} alt="send icon" className='w-5' />
+                                {/* anchor tag needs to wrap the image to be clickable */}
+                                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                    <Image src={project.icon} alt="send icon" className='w-5' />
+                                </a>
                             </div>
-
                         </div>
                     </motion.div>
                 ))}
