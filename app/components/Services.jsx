@@ -12,11 +12,12 @@ const Services = () => {
     whileInView={{opacity:1}}
     transition={{duration: 1}} 
     id='services' className='w-full px-[12%] py-10 scroll-mt-20'>
-        <motion.h4 
+        
+        {/* <motion.h4 
             initial={{opacity:0, y: -20}}
             whileInView={{opacity:1, y:0}}
             transition={{duration: 0.5, delay: 0.3}} 
-        className='text-center mb-2 text-lg font-Ovo'>Services</motion.h4>
+        className='text-center mb-2 text-lg font-Ovo'>Services</motion.h4> */}
         
         <motion.h2 
         initial={{opacity:0, y: -20}}
@@ -27,8 +28,8 @@ const Services = () => {
         <motion.p 
         initial={{opacity:0}}
         whileInView={{opacity:1}}
-        transition={{duration: 0.5, delay: 0.7}} className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>some skills that I wax lyrical about
-            I should really write more here
+        transition={{duration: 0.5, delay: 0.7}} className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
+            I have a broad skill set, these are my main areas of expertise: 
         </motion.p>
 
 

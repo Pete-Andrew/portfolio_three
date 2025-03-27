@@ -129,27 +129,21 @@ export const workData = [
       icon: assets.send_icon,
       link: 'https://arnamanatomy.wixsite.com/ilexecoart',
     },
-    {
-      title: 'UI/UX designing',
-      description: 'UI/UX Design',
-      bgImage: '/work-4.png',
-      icon: assets.send_icon,
-      link: 'https://example.com',
-    },
+    // {
+    //   title: 'UI/UX designing',
+    //   description: 'UI/UX Design',
+    //   bgImage: '/work-4.png',
+    //   icon: assets.send_icon,
+    //   link: 'https://example.com',
+    // },
   ]
 
-// exports for the what I offer section
-export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    // { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
-]
+
 
 //this list is pulled onto the page through the About.jsx page
 // In order to put the education as separate lines I've needed to use a dangerouslySetInnerHTML p tag
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js, learning Python' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'JavaScript, HTML, CSS, React, Next Js, currently learning Python' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'MSc Biodiversity <br> BSc Biological Sciences <br> EdX Front-end Bootcamp' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: '<a href="https://github.com/Pete-Andrew" target="_blank"><b>Click here for my GitHub Projects<b></a>' }
 ];
@@ -168,3 +162,11 @@ export const toolsData = [
     { icon: assets.visual_studio, title: 'Visual Studio' },
     { icon: assets.zbrush_logo, title: 'ZBrush' }
   ];
+
+  // exports for the what I offer section
+export const serviceData = [
+  { icon: assets.web_icon, title: 'Web design', description: 'Front end web development and websites', link: '' },
+  { icon: assets.mobile_icon, title: 'Full Stack Development', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
+  // { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
+  { icon: assets.graphics_icon, title: 'Graphics design and Artwork', description: 'I have worked as professional artist and still create and sell models for use in video games and for 3D printing', link: 'https://allmylinks.com/ilexecoart?fbclid=IwY2xjawJKFvFleHRuA2FlbQIxMAABHaRr0-w0J75tbk_UMPYF57ZfcUsJbCVyRCXbaFf6x53MyW8Wnocz9oryoA_aem_OZIHcpefGNCGFmvoxwtcJQ' },
+]

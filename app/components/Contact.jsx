@@ -48,7 +48,7 @@ const Contact = () => {
       initial={{opacity:0, y: -20}}
       whileInView={{opacity:1, y:0}}
       transition={{duration: 0.5, delay: 0.3}} 
-      className='text-center mb-2 "text-1g font-Ovo' >
+      className='text-center text-5xl font-Ovo' >
         Contact me</motion.h4>
 
       <motion.h2 
@@ -56,14 +56,14 @@ const Contact = () => {
             whileInView={{opacity:1, y:0}}
             transition={{duration: 0.5, delay: 0.3}} 
             className='text-center text-5x1 font-Ovo' >
-        Get in touch</motion.h2>
+        If you want to discuss anything please feel free to get in touch!</motion.h2>
 
-      <motion.p 
+      {/* <motion.p 
        initial={{opacity:0}}
        whileInView={{opacity:1}}
        transition={{duration: 0.5, delay: 0.7}}
       className='text-center max-w-2x1 mx-auto mt-5 mb-12 font-Ovo'>
-        Give me a shout yo, I'm waiting</motion.p>
+        Give me a shout yo, I'm waiting</motion.p> */}
 
       <motion.form 
        initial={{opacity:0}}

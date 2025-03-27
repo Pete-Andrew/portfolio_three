@@ -26,8 +26,9 @@ const About = ({isDarkMode}) => {
             initial={{opacity:0}}
             whileInView={{opacity:1}}
             transition={{duration: 0.8}} 
-        className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
+        className='flex w-full flex-col lg:flex-row justify-items-start gap-20 my-20'>
             
+            {/* bluebell wood image */}
             <motion.div 
                 initial={{opacity:0, scale: 0.9}}
                 whileInView={{opacity:1, scale: 1}}
@@ -36,17 +37,31 @@ const About = ({isDarkMode}) => {
                 <Image src={assets.bluebell_wood} alt='user' className ='w-full rounded-3xl' />
             </motion.div>
 
+{/* about me blurb */}
             <motion.div 
                         initial={{opacity:0}}
                         whileInView={{opacity:1}}
                         transition={{duration: 0.8, delay: 0.6}} 
             className='flex-1'>
-                <p className='mb-10 max-w-3xl font-Ovo'>
-                    I want to build interesting things with interesting people. I am fascinated by biology (I have an MSc in Biodiversity)
-                    Always looking to refine and build on my skill set. 
-                    </p>
+                  <p className='mb-10 max-w-3xl font-Ovo text-justify'>
+                      My primary focus is that I want to build interesting things with interesting people.
+                      This may sound like a generalisation, but I am a firm believer that when driven, creative, 
+                      interested people work on any project the results can be spectacular.
+                      <br/><br/>
+                      I have a diverse set of skills (everything from construction to digital sculpting), which I am always looking to build on and refine.
+                      I am also keen to share my knowledge to help others do the same.
+                      <br/><br/>
+                      I am a creative and pragmatic problem solver, with an aptitude for analysing problems and finding or building solutions.
+                      I work well in teams and try to bring enthusiasm and dedication to any project I work on.
+                      
+                      I am fascinated by biology (I have an MSc in Biodiversity) and in the paralells between the living world and the digital.
+                      Machine learning being a prime example of tech mimicking nature. 
+                      <br/><br/>
+                      In addition to programming I am also a digital and traditional artist, I make 3D print files for sale <a href='https://allmylinks.com/ilexecoart?fbclid=IwY2xjawJKFvFleHRuA2FlbQIxMAABHaRr0-w0J75tbk_UMPYF57ZfcUsJbCVyRCXbaFf6x53MyW8Wnocz9oryoA_aem_OZIHcpefGNCGFmvoxwtcJQ'>Links</a>.
+                      What you do is more important than what you say so please check out my github to see my ongoing projects...  
+                  </p>
 
-                
+                {/* project cards */}
                 <motion.ul 
                             initial={{opacity:0}}
                             whileInView={{opacity:1}}
@@ -69,12 +84,13 @@ const About = ({isDarkMode}) => {
                         </motion.li>
                     ))}
                 </motion.ul>
-
+                
+                {/* Tools I use section */}
                 <motion.h4 
                             initial={{opacity:0, y: 20}}
                             whileInView={{opacity:1, y:0}}
                             transition={{duration: 0.5, delay: 1.3}} 
-                className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Tools I Use</motion.h4>
+                className='my-6 text-gray-700 font-Ovo dark:text-white/80 font-bold'>Tools I Use:</motion.h4>
                     <motion.ul 
                                 initial={{opacity:0}}
                                 whileInView={{opacity:1}}
