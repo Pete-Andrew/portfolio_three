@@ -54,10 +54,10 @@ const About = ({isDarkMode}) => {
                       I am a creative and pragmatic problem solver, with an aptitude for analysing problems and finding or building solutions.
                       I work well in teams and try to bring enthusiasm and dedication to any project I work on.
                       
-                      I am fascinated by biology (I have an MSc in Biodiversity) and in the paralells between the living world and the digital.
+                      I am fascinated by biology (I have an MSc in Biodiversity) and in the parallels between the living world and the digital.
                       Machine learning being a prime example of tech mimicking nature. 
                       <br/><br/>
-                      In addition to programming I am also a digital and traditional artist, I make 3D print files for sale <a href='https://allmylinks.com/ilexecoart?fbclid=IwY2xjawJKFvFleHRuA2FlbQIxMAABHaRr0-w0J75tbk_UMPYF57ZfcUsJbCVyRCXbaFf6x53MyW8Wnocz9oryoA_aem_OZIHcpefGNCGFmvoxwtcJQ'>Links</a>.
+                      In addition to programming I am also a digital and traditional artist, I make 3D print files for sale <a target="_blank" href='https://allmylinks.com/ilexecoart?fbclid=IwY2xjawJKFvFleHRuA2FlbQIxMAABHaRr0-w0J75tbk_UMPYF57ZfcUsJbCVyRCXbaFf6x53MyW8Wnocz9oryoA_aem_OZIHcpefGNCGFmvoxwtcJQ'>(see them here)</a>.
                       What you do is more important than what you say so please check out my github to see my ongoing projects...  
                   </p>
 
