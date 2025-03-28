@@ -15,10 +15,10 @@ const Contact = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    const API_key = process.env.REACT_APP_API_KEY;
-    // const API_Key = "Paste the API in here an it works"
+    const API_Key = process.env.NEXT_PUBLIC_API_KEY;
+    //const API_key ="put key here and it works!";
 
-    formData.append("access_key", API_key);
+    formData.append("access_key", API_Key);
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
