@@ -1,3 +1,13 @@
+## Portfolio Website!
+
+I used next js to create a portfolio website, it is hosted on Vercel.
+
+See the live version here: >>> [Pete Andrew Portfolio](https://peteandrewportfolio.vercel.app/) <<<
+
+![Pete Andrew Portfolio Screenshot](./assets/Portfolio_screenshot.jpg)
+
+## Standard Next.js Blurb: 
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -37,14 +47,14 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 To enable run dev, first you need to 'cd portfolio_three'
 
-## Notes
+## Personal Notes
 
-For some reason this project opens in the wrong folder, run 'cd portfolio_three' in the terminal to enter correct folder
+For development, this project opens in the wrong folder, run 'cd portfolio_three' in the terminal to enter correct folder
 Then 'npm run dev'
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-How to make this tutorial:
+How to make this website template tutorial:
 https://www.youtube.com/watch?v=Y2kGqbzvAn4&ab_channel=GreatStack
 
 npm install motion 
